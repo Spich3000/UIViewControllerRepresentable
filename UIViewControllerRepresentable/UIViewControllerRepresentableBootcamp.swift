@@ -20,7 +20,6 @@ struct UIViewControllerRepresentableBootcamp: View {
             } label: {
                 Text("Button")
             }
-
         }
         .sheet(isPresented: $showScreen) {
             BasicUIViewControllerRepresentable()
